@@ -1,0 +1,27 @@
+{
+  "name": "fileupload",
+  "version": "1.0.0",
+  "description": "File upload platform",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abosch19/fileUpload.git"
+  },
+  "keywords": [
+    "file"
+  ],
+  "author": "Alex Bosch",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abosch19/fileUpload/issues"
+  },
+  "homepage": "https://github.com/abosch19/fileUpload#readme",
+  "dependencies": {
+    "ejs": "^2.4.2",
+    "express": "^4.13.4"
+  }
+}
