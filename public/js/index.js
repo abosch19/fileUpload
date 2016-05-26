@@ -10,6 +10,6 @@ $(document).ready(function(){
   });
 
   $(window).scroll(function (){
-      $('section.home').css('top', $(window).scrollTop()/10);
+      $('section.home').css('top', $(window).scrollTop()/2);
   });
 });

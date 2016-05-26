@@ -101,7 +101,7 @@ section.home {
 
 .radio_buttons input[type="radio"].first:checked + label{
 	color: white;
-	box-shadow: inset -200px 0 0px 0 #31302B;
+	box-shadow: inset -200px 0px 0px 0 #31302B;
 	border-right: none;
 }
 /*
