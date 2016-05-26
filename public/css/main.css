@@ -92,6 +92,17 @@ section.home {
 	padding: 5px 15px;
 	transition: all ease 0.3s;
 	border: 1px solid black;
+	text-align: center;
+	box-shadow: inset 0 0 0 0 #31302B;
+    -webkit-transition: all ease 0.5s;
+    -moz-transition: all ease 0.5s;
+    transition: all ease 0.5s;
+}
+
+.radio_buttons input[type="radio"].first:checked + label{
+	color: white;
+	box-shadow: inset -200px 0 0px 0 #31302B;
+	border-right: none;
 }
 /*
 .radio_buttons label:first-of-type {
@@ -106,7 +117,7 @@ section.home {
 */
 .radio_buttons input[type="radio"]:checked + label{
 	color: white;
-	background-color: #061726;
+	box-shadow: inset 200px 0 0 0 #31302B;
 }
 
 .submit_div {

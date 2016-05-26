@@ -8,4 +8,8 @@ $(document).ready(function(){
         scrollTop: $(".tutorial").offset().top
     }, 1000);
   });
+
+  $(window).scroll(function (){
+      $('section.home').css('top', $(window).scrollTop()/10);
+  });
 });
