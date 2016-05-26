@@ -3,7 +3,7 @@ $(document).ready(function(){
     $(this).css({cursor:"pointer"});
   });
 
-  $(".how_work").click(function() {
+  $(".how_work, .nav_how").click(function() {
     $('html, body').animate({
         scrollTop: $(".tutorial").offset().top
     }, 1000);

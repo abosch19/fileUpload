@@ -53,25 +53,25 @@ section.home {
 .formulari .text_fields input{
 	margin-bottom: 12%;
 	font-size: 22px;
-	width: 100%;
+	width: 250px;
 	padding:5px;
 }
 
-.formulari .buttons{
-	margin-top: 60px;
-}
-
-.formulari .buttons input{
-	margin-bottom: 5%;
-	height: 50%;
+.folder{
+	height: 50px;
 	width: 100%;
-	border: 0;
-	border-radius: 3px;
-	background-color: #b58b4c;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
 }
 
-.formulari .buttons input:last-child{
-	background-color: #31d200;
+.password{
+	height: 50px;
+	width: 100%;
+	margin-top: 50px;
+	display: flex;
+	align-items: center;
+		justify-content: space-between;
 }
 
 
