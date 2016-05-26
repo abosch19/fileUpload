@@ -7,8 +7,6 @@
 	<link rel="stylesheet" href="static/css/main.css">
 </head>
 <body>
-<!- HEAD -->
-
 	<% include ../partials/navbar.ejs %>
 
 	<section class="col-md-12 home">
@@ -17,10 +15,10 @@
 
 			<form action="" class=" formulari col-md-3 col-sm-6 col-xs-10">
 				<div class="text_fields">
-					<p>Folder name:</p>
-					<input type="text" name="folderName" placeholder="">
-					<p>Password(optional):</p>
-					<input type="password" name="password" placeholder="">
+					<label for="folderName">Folder name:</label>
+					<input type="text" name="folderName" placeholder="" id="folderName">
+					<label for="password">Password(optional):</label>
+					<input type="password" name="password" placeholder="" id="password">
 				</div>
 				<div class="buttons">
 					<input type="submit" value="Open folder">

@@ -5,7 +5,7 @@ $(document).ready(function(){
 
   $(".how_work").click(function() {
     $('html, body').animate({
-        scrollTop: $(".q").offset().top
+        scrollTop: $(".tutorial").offset().top
     }, 1000);
   });
 });

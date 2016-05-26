@@ -32,6 +32,10 @@ section {
 	align-items: center;
 }
 
+section.home {
+	height: calc(100vh - 90px);
+}
+
 .logo{
 	height: 200px;
 	margin-top: 30px;
@@ -50,6 +54,7 @@ section {
 	margin-bottom: 12%;
 	font-size: 22px;
 	width: 100%;
+	padding:5px;
 }
 
 .formulari .buttons{
