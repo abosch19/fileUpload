@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/abosch19/fileUpload#readme",
   "dependencies": {
+    "body-parser": "^1.15.1",
     "ejs": "^2.4.2",
     "express": "^4.13.4",
     "multer": "^1.1.0"
