@@ -5,6 +5,7 @@
 
 body{
 	font-family: helvetica;
+	font-size: 22px;
 }
 
 .navbar {
@@ -29,10 +30,6 @@ section {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-}
-
-section.q {
-	background: blue;
 }
 
 .logo{
@@ -89,4 +86,42 @@ section.q {
 
 .arrow_down{
 	color: #01544f;
+}
+
+section.tutorial {
+	background-color: #01A8EC;
+	flex-direction: row;
+	color: white;
+}
+
+.container {
+	width: 100%;
+	height: 95%;
+	padding-bottom: 20px;
+	display: flex;
+	flex-flow: column nowrap;
+}
+
+.container > h2 {
+	padding-left: 30px;
+	margin-bottom: 40px;
+}
+
+.container > .step-container {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+
+.container > .step-container > .step {
+	width: 48%;
+	height: 100%;
+
+}
+
+.container > .step-container > .step img {
+	width: 100%;
+	height: 70%;
 }
