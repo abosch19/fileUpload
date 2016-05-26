@@ -15,11 +15,17 @@
 
 			<img src="logo.png" alt="logo_files" class="logo col-md-6 col-sm-6 col-xs-10">
 
-			<form action="" class=" formulari col-md-3 col-sm-3 col-xs-10">
-				<input type="text" name="folderName">
-				<input type="text" name="password">
-				<input type="submit" value="Open folder">
-				<input type="submit" value="Create folder">
+			<form action="" class=" formulari col-md-3 col-sm-6 col-xs-10">
+				<div class="text_fields">
+					<p>Folder name:</p>
+					<input type="text" name="folderName" placeholder="">
+					<p>Password(optional):</p>
+					<input type="password" name="password" placeholder="">
+				</div>
+				<div class="buttons">
+					<input type="submit" value="Open folder">
+					<input type="submit" value="Create folder">
+				</div>
 			</form>
 
 			<div class="how_work col-md-4 col-sm-4 col-xs-8">
@@ -32,7 +38,7 @@
 	<section class="col-md-12 q"></section>
 
 
-	<script src="static/js/index.js"></script>
 	<% include ../partials/jquery.ejs %>
+	<script src="static/js/index.js"></script>
 </body>
 </html>
