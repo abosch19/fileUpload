@@ -3,7 +3,7 @@ var express = require('express')
 	multer = require('multer');
 	storage = multer.diskStorage({
 		destination: function (req, file, cb) {
-			cb(null, '/files')
+			cb(null, '/folders')
 		},
 		filename: function (req, file, cb) {
 			cb(null, file.originalname)

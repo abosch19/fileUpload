@@ -34,6 +34,8 @@ section {
 
 section.home {
 	height: calc(100vh - 90px);
+	padding-top: 50px;
+	position: fixed;
 }
 
 .logo{
@@ -68,10 +70,56 @@ section.home {
 .password{
 	height: 50px;
 	width: 100%;
-	margin-top: 50px;
+	margin-top: 30px;
 	display: flex;
 	align-items: center;
-		justify-content: space-between;
+	justify-content: space-between;
+}
+
+.radio_buttons {
+	margin-top: 30px;
+	display: flex;
+	flex-flow: row;
+}
+
+.radio_buttons input[type="radio"] {
+	display: none;
+}
+
+.radio_buttons label {
+	width: 50%;
+	font-weight: lighter;
+	padding: 5px 15px;
+	transition: all ease 0.3s;
+	border: 1px solid black;
+}
+/*
+.radio_buttons label:first-of-type {
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+.radio_buttons label:last-of-type {
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+*/
+.radio_buttons input[type="radio"]:checked + label{
+	color: white;
+	background-color: #061726;
+}
+
+.submit_div {
+	margin-top: 30px;
+	width: 100%;
+}
+
+.submit_div input[type="submit"] {
+	width: 100%;
+	padding: 5px 15px;
+	color: white;
+	background-color: #CBA46D;
+	border: 1px solid black;
 }
 
 
@@ -94,14 +142,17 @@ section.home {
 }
 
 section.tutorial {
+	position: absolute;
+	left: 0;
+	top: 750px;
+	padding: 5%;
 	background-color: #01A8EC;
 	flex-direction: row;
+	align-items: flex-start;
 	color: white;
 }
 
-.container {
-	width: 100%;
-	height: 95%;
+.contenidor {
 	padding-bottom: 20px;
 	display: flex;
 	flex-flow: column nowrap;
@@ -114,13 +165,12 @@ section.tutorial {
 }
 
 .container > .step-container {
-	height: 100%;
-	width: 100%;
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: space-around;
 }
 
+<<<<<<< HEAD
 .container > .step-container > .step {
 	width: 32%;
 	min-width: 350px;
@@ -131,4 +181,35 @@ section.tutorial {
 .container > .step-container > .step img {
 	width: 100%;
 	border-radius: 10px;
+=======
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+	section.tutorial h2{
+		font-size: 20px;
+	}
+
+	section.tutorial h3 {
+		font-size: 10px;
+	}
+>>>>>>> a83fcdfe5e23a8a388909a87ca209ff472a82e7d
 }
