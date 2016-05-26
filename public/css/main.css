@@ -1,1 +1,70 @@
+* {
+	padding: 0;
+	margin: 0;
+}
 
+body{
+	font-family: helvetica;
+}
+
+.navbar {
+	background-color: #061726;
+	border-color: rgb(1, 9, 20);
+	border-radius: 0;
+	margin: 0;
+}
+
+#navbar ul li a {
+	color: white;
+}
+
+section {
+	height: 100vh;
+	width: 100%;
+	background: red;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+section.q {
+	background: blue;
+}
+
+.logo{
+	height: 400px;
+	margin-top: 30px;
+	background-color: green;
+}
+
+.formulari{
+	height: 500px;
+	margin-top: 5%;
+	background-color: grey;
+	display: flex;
+	flex-direction: column;
+}
+
+.formulari input{
+	margin-top: 10%;
+	height: 10%;
+}
+
+.how_work{
+	height:200px;
+	margin-top: 10%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: yellow;
+}
+
+.text_down{
+	font-size: 30px;
+	color: #01544f;
+}
+
+.arrow_down{
+	color: #01544f;
+}
