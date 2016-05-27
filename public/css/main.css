@@ -88,6 +88,7 @@ section.home {
 
 .radio_buttons label {
 	width: 50%;
+	cursor: pointer;
 	font-weight: lighter;
 	padding: 5px 15px;
 	transition: all ease 0.3s;
@@ -101,7 +102,7 @@ section.home {
 
 .radio_buttons input[type="radio"].first:checked + label{
 	color: white;
-	box-shadow: inset -200px 0px 0px 0 #31302B;
+	box-shadow: inset -500px 0px 0px 0 #31302B;
 	border-right: none;
 }
 /*
@@ -117,7 +118,7 @@ section.home {
 */
 .radio_buttons input[type="radio"]:checked + label{
 	color: white;
-	box-shadow: inset 200px 0 0 0 #31302B;
+	box-shadow: inset 500px 0 0 0 #31302B;
 }
 
 .submit_div {
@@ -178,6 +179,24 @@ section.tutorial {
 .contenidor >  .step img {
 	width: 65%;
 	border-radius: 10px;
+}
+.cross {
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	top: 5%;
+	right: 5%;
+	text-align: center;
+	cursor: pointer;
+	line-height: 40px;
+	background-color: grey;
+	color: white;
+	border-radius: 50%;
+	transition: all ease .3s;
+}
+
+.cross:hover {
+	background-color: rgb(84, 84, 84)
 }
 /* Large desktops and laptops */
 @media (min-width: 1200px) {
